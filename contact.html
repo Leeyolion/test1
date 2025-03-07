@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>https://www.mayfoundation.org/contact/</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <a href="index.html" class="logo"><img src="../pics/May Foundation Trans Logo.png" alt="">MAY FOUNDATION</a>
+
+        <ul class="navlist">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="learnmore.html">Programs</a>
+            <a href="report.html">Report</a>
+            <a href="contact.html">Contact</a>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#" class="btn">Donate Now</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+
+    <section class="contact-section">
+        <div class="inner-width">
+            <h1>Get In Touch With Us</h1>
+            <input type="text" class="name" placeholder="Your Name">
+            <input type="email" name="" class="email" placeholder="Your Email">
+            <textarea rows="1" placeholder="Message" class="Message"></textarea>
+            <button>Get In Touch</button>
+        </div>
+    </section>
+   
+
+
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="socialicons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+      
+            <div class="footerNav">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Our Terms</a></li>
+              </ul>
+            </div>
+      
+            
+        </div>
+
+        <div class="footerbutton">
+            <p>Copyright &copy;2024; <span class="designer">May Foundation</span></p>
+          </div>
+    </footer>
+
+
+
+
+
+    <script type="text/javascript">
+        let menu = document.querySelector('#menu-icon')
+        let navlist = document.querySelector('.navlist')
+
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open')
+        }
+    </script>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
